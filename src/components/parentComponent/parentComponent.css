@@ -1,0 +1,29 @@
+
+.wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.customInput {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+.input-field {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding:  0px 10px;
+}
+
+.input-field:focus {
+    outline: 0;
+}
